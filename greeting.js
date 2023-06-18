@@ -19,5 +19,11 @@ function individualGreetings(names) {
     }
     return greeting;
 }
+function individualGreetings2(names) {
+let greeting2 = names.map(name => `Hello, ${name}!`);
+return greeting2;
+}
+
 
 console.log(individualGreetings(["Ash", "Beth", "Ciara"]));
+console.log(individualGreetings2(["Miko", "Laura", "Sara"]));
